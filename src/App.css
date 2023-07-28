@@ -1,0 +1,29 @@
+.sidebar {
+  background-color: black;
+  height: 100vh;
+  /* Adjust this value as needed */
+}
+
+.chatbox {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.chatbox-input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  padding-right: 40px;
+}
+
+.send-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -40px;
+}
